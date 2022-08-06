@@ -2,6 +2,7 @@
 
 ## Bash Commands:
 - echo "text" : Print "text" in the terminal
+  - ">>" : Used to put text in a file
 - pwd : **P**rint **W**orking **D**irectory
 - ls -<flag> <directory_name>: **L**i**S**t the items in the current directory in accordance with the flags given
   - Flags

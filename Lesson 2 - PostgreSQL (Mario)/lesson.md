@@ -15,6 +15,8 @@
     - VARCHAR(number) : Variable Characters (Character Varying) of length number
     - Serial : Not null integers serialised
     - NUMERIC(number, precision) : Number of digits is number with precision amount to the right of the decimal
+    - BOOLEAN : True or False
+    - TEXT : Used to store text of infinite length
   - Constraints
     - NOT NULL : Can't be empty
     - 
@@ -40,3 +42,4 @@
 - SELECT <columns> FROM <junction_table>
 FULL JOIN <table_1> ON <junction_table.foreign_key_column> = <table_1.primary_key_column>
 FULL JOIN <table_2> ON <junction_table.foreign_key_column> = <table_2.primary_key_column>; : Join multiple tables
+- () For Alter is a must

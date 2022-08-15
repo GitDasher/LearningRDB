@@ -35,7 +35,7 @@
 - ALTER TABLE <table_name> ADD COLUMN <column_name> <datatype> <constraints> REFERENCES <referenced_table_name>(<referenced_column_name>); : Alter table <table_name> to add a foreign key <column_name> with <datatype> that references <referenced_column_name> from <referenced_table_name> with <constraints>
 - ALTER TABLE <table_name> ADD UNIQUE(<column_name>); : Alter the table <table_name> to add a unique key to <column_name> to have a 'one-to-one' relationship
 - ALTER TABLE <table_name> ALTER COLUMN <column_name> SET <constraint>; : Alter the table <table_name> to add a constraint to a column <column_name>
-- CREATE TABLE <table_name>(<column_name> <datatype> <constraints>); : Create a table under the name <table_name> with <column_name> having <datatype> and <constrains> 
+- CREATE TABLE <table_name>(<column_name> <data_type> <_constraints>); : Create a table under the name <table_name> with <column_name> having <data_type> and <_constrains> 
 - ALTER TABLE <table_name> ADD FOREIGN KEY(<column_name>) REFERENCES <referenced_table>(<referenced_column>); : Alter table <table_name> to add a foreign key to <column_name> which references <referenced_column> of <referenced_table>
 - ALTER TABLE <table_name> ADD PRIMARY KEY(<column1>, <column2>); : Alter table <table_name> to create a composite key, using <column1> and <column2>
 - SELECT <columns> FROM <table_1> FULL JOIN <table_2> ON <table_1.primary_key_column> = <table_2.foreign_key_column>; : Select <columns> from <table_1> while joining them with <table_2> using keys <table_1.primary_key_column> and <table_2.foreign_key_column>. A Join is used to establish a connection

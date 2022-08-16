@@ -277,13 +277,43 @@ INSERT INTO public.galaxy VALUES (6, 'NGC 6946', 'Fireworks Galaxy', 100000, 10.
 -- Data for Name: moon; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-
+INSERT INTO public.moon VALUES (1, 'Moon1', 4530, 1, true);
+INSERT INTO public.moon VALUES (2, 'Moon2', 4530, 1, true);
+INSERT INTO public.moon VALUES (3, 'Moon3', 4530, 2, true);
+INSERT INTO public.moon VALUES (4, 'Moon4', 4530, 2, true);
+INSERT INTO public.moon VALUES (5, 'Moon5', 4530, 3, true);
+INSERT INTO public.moon VALUES (6, 'Moon6', 4530, 3, true);
+INSERT INTO public.moon VALUES (7, 'Moon7', 4530, 4, true);
+INSERT INTO public.moon VALUES (8, 'Moon8', 4530, 5, true);
+INSERT INTO public.moon VALUES (9, 'Moon9', 4530, 6, true);
+INSERT INTO public.moon VALUES (10, 'Moon10', 4530, 6, true);
+INSERT INTO public.moon VALUES (11, 'Moon11', 4530, 7, true);
+INSERT INTO public.moon VALUES (12, 'Moon12', 4530, 7, true);
+INSERT INTO public.moon VALUES (13, 'Moon13', 4530, 8, true);
+INSERT INTO public.moon VALUES (14, 'Moon14', 4530, 9, true);
+INSERT INTO public.moon VALUES (15, 'Moon15', 4530, 10, true);
+INSERT INTO public.moon VALUES (16, 'Moon16', 4530, 11, true);
+INSERT INTO public.moon VALUES (17, 'Moon17', 4530, 12, true);
+INSERT INTO public.moon VALUES (18, 'Moon18', 4530, 11, true);
+INSERT INTO public.moon VALUES (19, 'Moon19', 4530, 5, true);
+INSERT INTO public.moon VALUES (20, 'Moon20', 4530, 8, true);
 
 --
 -- Data for Name: planet; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-
+INSERT INTO public.planet VALUES (1, 'Earth', 4543, true, 1);
+INSERT INTO public.planet VALUES (2, 'Jupiter', 4603, true, 1);
+INSERT INTO public.planet VALUES (3, 'Saturn', 4503, true, 1);
+INSERT INTO public.planet VALUES (4, 'Mars', 4603, true, 1);
+INSERT INTO public.planet VALUES (5, 'Mercury', 4503, true, 1);
+INSERT INTO public.planet VALUES (6, 'Venus', 4503, false, 1);
+INSERT INTO public.planet VALUES (7, 'Neptune', 4503, true, 1);
+INSERT INTO public.planet VALUES (8, 'Uranus', 4503, true, 1);
+INSERT INTO public.planet VALUES (9, 'Pluto', 4603, true, 1);
+INSERT INTO public.planet VALUES (10, 'Dwarf1', 5, true, 2);
+INSERT INTO public.planet VALUES (11, 'Dwarf2', 5, true, 3);
+INSERT INTO public.planet VALUES (12, 'Dwarf3', 5, true, 4);
 
 --
 -- Data for Name: star; Type: TABLE DATA; Schema: public; Owner: freecodecamp
@@ -301,6 +331,9 @@ INSERT INTO public.star VALUES (6, 'KW Sagittarii', 32, 1, true);
 -- Data for Name: visitor; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
+INSERT INTO public.visitor VALUES (1, 'Human', 1);
+INSERT INTO public.visitor VALUES (2, 'Dog', 1);
+INSERT INTO public.visitor VALUES (3, 'Cat', 1);
 
 
 --

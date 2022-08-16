@@ -267,6 +267,10 @@ ALTER TABLE ONLY public.visitor ALTER COLUMN visitor_id SET DEFAULT nextval('pub
 
 INSERT INTO public.galaxy VALUES (1, 'Milky Way', 'Our home', 100000, 13.6);
 INSERT INTO public.galaxy VALUES (2, 'Andromeda', 'Our friend', 1000000, 10.1);
+INSERT INTO public.galaxy VALUES (3, 'Antennae', 'Ants Antenna Arms', 1000, 0.3);
+INSERT INTO public.galaxy VALUES (4, 'Messier 82', 'Cigar Galaxy', 30000, 13.3);
+INSERT INTO public.galaxy VALUES (5, 'Circinus', 'Named after its housing constellation', NULL, 0.0);
+INSERT INTO public.galaxy VALUES (6, 'NGC 6946', 'Fireworks Galaxy', 100000, 10.0);
 
 
 --
@@ -285,6 +289,12 @@ INSERT INTO public.galaxy VALUES (2, 'Andromeda', 'Our friend', 1000000, 10.1);
 -- Data for Name: star; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
+INSERT INTO public.star VALUES (1, 'Sun', 4603, 1, true);
+INSERT INTO public.star VALUES (2, 'Proxima Centauri', 4853, 1, true);
+INSERT INTO public.star VALUES (3, 'Alpha Centauri', 4853, 1, true);
+INSERT INTO public.star VALUES (4, 'Alpheratz', 70, 2, true);
+INSERT INTO public.star VALUES (5, 'Almach', 7, 2, true);
+INSERT INTO public.star VALUES (6, 'KW Sagittarii', 32, 1, true);
 
 
 --

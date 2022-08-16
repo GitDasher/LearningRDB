@@ -1,4 +1,4 @@
-# Lesson 2 - PostgreSQL
+# Lesson 2 - PostgreSQL (Mario)
 
 ## Postgre commands
 - psql -U <user_name> : Log into PostgreSQL with username <user_name>

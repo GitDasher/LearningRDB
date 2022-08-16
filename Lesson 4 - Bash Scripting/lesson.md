@@ -12,3 +12,7 @@
 - read <variable_name> - Read input from command line and save it to the variable
 - man <command> - Used to read the manual page for the command
 - #<comment_> - # is used for comments in bash
+- echo $* - Used to print all arguments given to a script
+- <*> - Wildcard character
+- <$number_> - <$number_> To access <number_> argument given to the script, example $2 to access arg2
+- 

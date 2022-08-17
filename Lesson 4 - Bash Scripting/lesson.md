@@ -15,4 +15,22 @@
 - echo $* - Used to print all arguments given to a script
 - <*> - Wildcard character
 - <$number_> - <$number_> To access <number_> argument given to the script, example $2 to access arg2
+- help - Used to show all scripting commands
+- help <command_> - Used to show help page for command
+- if [[condition1]] then <code_block1> elif [[condition2]] then <code_block2> .. else <code_block_> fi - If condition for bash
+  - Operators for [[conditions]]
+    - -eq - Equals
+    - -ne - Not equals
+    - -lt - Less than
+    - -le - Less than or equals
+    - -gt - Greater than
+    - -ge - Greater than or equals
+- [[ expression ]] - Conditional expression
+- help test - Useful command for getting test expressions
+- echo $? - Used to print out the exit status of the last command used
+- 0/1 - True/False exit status (although this means that command had zero errors, 1 error)
+- ; - Used to seperate commands on a single line
+- 127 - Command not found exit status
+- for ((condition)) do <code_block> done - For loop for bash
+- :' <comment_> ' - Used to create a multi line comment
 - 

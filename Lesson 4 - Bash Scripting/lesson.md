@@ -25,6 +25,12 @@
     - -le - Less than or equals
     - -gt - Greater than
     - -ge - Greater than or equals
+    - =~ - Patter matching, contains pattern
+    - == - Equals
+  - Regex Patterns for [[conditions]]
+    - ^<character_> - Starts with character
+    - ^<character_1>.+<character_2>$ - Stars with character 1, has at least 1 character in between and ends with character 2
+    - \<character_>$ - Ends with character
 - [[ expression ]] - Conditional expression
 - help test - Useful command for getting test expressions
 - echo $? - Used to print out the exit status of the last command used
@@ -39,4 +45,10 @@
 - $RANDOM%<number_> - Use modulus operator i.e. % to generate a number in the range 0 to number
 - (()) - Does calculations in the spot and replaces the original value
 - $(()) - Does the calculations in the spot and uses the command but does not replace the original value
+- ARRAY=("item1" "item2" .... "itemN") - Create an array in bash
+- echo $* - Print the whole argument list
+- echo $@ - Print the whole argument list
+- echo ${ARR[*]} - Print the whole array
+- echo ${ARR[@]} - Print the whole array
+- <function_name> () { <code_block> } - Used to create shell functions
 - 

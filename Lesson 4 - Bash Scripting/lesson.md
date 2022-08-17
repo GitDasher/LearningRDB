@@ -33,4 +33,10 @@
 - 127 - Command not found exit status
 - for ((condition)) do <code_block> done - For loop for bash
 - :' <comment_> ' - Used to create a multi line comment
+- printenv - Used to print environment variables
+- declare -p - Print all variables declared
+- $RANDOM - Random variable that generates a number between 0 and 32767
+- $RANDOM%<number_> - Use modulus operator i.e. % to generate a number in the range 0 to number
+- (()) - Does calculations in the spot and replaces the original value
+- $(()) - Does the calculations in the spot and uses the command but does not replace the original value
 - 

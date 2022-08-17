@@ -51,4 +51,4 @@
 - echo ${ARR[*]} - Print the whole array
 - echo ${ARR[@]} - Print the whole array
 - <function_name> () { <code_block> } - Used to create shell functions
-- 
+- type <command_> - Shell command to view the type of the command

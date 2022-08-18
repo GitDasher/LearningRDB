@@ -11,5 +11,5 @@
 - [[condition]] 
   - Flags
     - -z - Check if the condition is zero
-- VARIABLE=$($PSQL "<query>") - Store the query into the table and its result into a variable
+- VARIABLE=$($PSQL "<query_>") - Store the query into the table and its result into a variable
 - pg_dump --clean --create --inserts --username=<user_name> <database_name> > <file_name>.sql - Create a clean dump of database

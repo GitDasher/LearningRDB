@@ -1,4 +1,4 @@
-# Lesson 5 & 6 - PostgreSQL (Student)
+# Lesson 5 & 6 - PostgreSQL (Student) Part 1
 
 ## Postgre Commands
 - TRUNCATE <table_name>, <table_name>, ...., <table_name>; - Delete all the data from a table, must truncate every table that uses the required table entries as a foreign key

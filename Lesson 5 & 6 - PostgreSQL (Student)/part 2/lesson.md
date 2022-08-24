@@ -1,1 +1,39 @@
 # Lesson 5 & 6 - PostgreSQL (Student) Part 2
+
+## PostgreSQL Commands
+- SELECT * FROM <table_name> WHERE <column_> <condition_> <pattern_>; -
+  - Pattern conditions
+    - LIKE - Pattern matching
+    - ILIKE - Pattern matching but ignore case
+    - NOT LIKE - Pattern ignoring
+    - NOT ILIKE - Pattern ignoring but ignore case
+      - % - Wild card match
+      - _ - Match a single space
+    - IS NULL - Check whether value is null
+    - IS NOT NULL - Check whether value is not null
+- SELECT * FROM <table_name> ORDER BY <column_1> <order_1>, <column_2> <order_2>, .... <column_n> <order_n> -
+  - Order conditions
+    - ASC - Ascending
+    - DESC - Descending
+- SELECT <round_off_condition>(<condition_>(<column_>), <decimal_places>) FROM <table_name>; - Use the condition to find a specific value from a column of the table
+  - Column conditions
+    - MIN - Find the minimum value from the column
+    - MAX - Find the maximum value from the column
+    - SUM - Find the sum of all the values in the column
+    - AVG - Find the average value of all the values in the column
+    - COUNT - Count the values in the column
+    - DISTINCT - Show the distinct values in the column, same effect can be achieved by GROUP BY
+  - Round off conditions (conditional conditions)
+    - CEIL - Round of the value to the upper ceiling value
+    - FLOOR - Round of the value to the lower floor value
+    - ROUND - Round of the value to the closes whole number value
+- SELECT <column_1>, <condition_1>(<column_>), <condition_2>(<column_>) FROM <table> GROUP BY <column_1> HAVING <condition_having>; - Select values from a column grouped by column_1 and satisfying the condition <condition_having>
+- SELECT <column_name> AS <new_name> FROM <table_name>; - Show data from column and use a new name
+- SELECT <column_name> FROM <table_name> <join_condition> ON <table_name> <foreign_key>; -
+  - Join conditions
+    - FULL JOIN - All connections
+    - LEFT JOIN - All connections from left side
+    - RIGHT JOIN - All connections from right side
+    - INNER JOIN - Not null connections
+  - Can skip <foreign_key> comparison by using USING(<foreign_key_column>), this converts them into 1 column instead of two seperate columns
+-

@@ -36,4 +36,3 @@
     - RIGHT JOIN - All connections from right side
     - INNER JOIN - Not null connections
   - Can skip <foreign_key> comparison by using USING(<foreign_key_column>), this converts them into 1 column instead of two seperate columns
--
